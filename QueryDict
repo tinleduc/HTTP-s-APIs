@@ -1,0 +1,48 @@
+class QueryDict
+In an HttpRequest object the Get and Post attributes are instances of django.http.QueryDict
+a dictionary-like class customized to deal with multiple values for the same key.
+The QueryDict at request.POST and request.GET will be immetable when accessed in a normal request/response cycle.
+To get a mutable version you need to use QueryDict.copy()
+
+Methods
+
+QuertDict.__init__()
+
+QuertDict.__getitem__()
+
+QuertDict.__setitem__()
+
+QuertDict.__contains__()
+
+
+QuertDict.get()
+
+QuertDict.setdefault()
+
+QuertDict.update()
+
+QuertDict.items()
+
+QuertDict.values()
+
+QuertDict.copy()
+
+QuertDict.getlist()
+
+QuertDict.setlist()
+
+QuertDict.appendlist()
+
+QuertDict.setlistdefault()
+
+QuertDict.lists()
+
+QuertDict.pop()
+
+QuertDict.popitem()
+
+QuertDict.dict()
+
+QuertDict.urlencode()
+
+
