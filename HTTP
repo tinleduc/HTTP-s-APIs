@@ -1,0 +1,66 @@
+1/ Home
+HTTP Hypertext Transfer Protocol
+
+2/ Overview
+
+3/ Parameters
+
+4/ Messages
+
+5/ Requests
+
+	An HTTP client send an HTTP request to a server in the form of a request message which includes following format:
+
+	* A Request-line
+		-Begin with a method token: Method is case-sensitive and should always mentioned in upperscase.
+GET    : retrieve information from given server using a given URI and should no other effect on the data
+HEAD   : Same as GET but it transfers the status line and the header sections only
+POST   : send data to the server for example, information, file upload
+PUT    : Replaced all the current representations of the target resource with the uploaded content
+DELETE : Removes all the current representations of the target resource given by URI 
+CONNECT: Establishes a tunnel to the server identified by a given URI
+OPTION : Describle the communication option for the target resource
+TRACE  : Performs a message loop back test along with the path to the target resource
+
+		- Followed by the Request-URI
+Syntax: 
+	Request-URI = "*" | absoluteURI | abs_path | authority
+
+"*": is used when a HTTP request does not apply to a particular resource, bu to the server itself and is only allowd when the method used does not necessarily apply to a resource.
+absoluteURI: is used when HTTP request is being made to proxy.
+abs_pth:
+
+		- And the protocol version 
+		- Ending with CRLF
+			Syntax:
+			Method SP Request-URL SP HTTP-Version CRLF
+
+	* Zero or more header(General|Request|Entiry) fields followed by CRLF
+
+
+
+	* An empty line (i.e., a line with nothing preceding the CRLF) indicating the end of the header fields
+
+
+	* Optinally a message-body
+
+
+	Note: When a browser sends a request to a web server, the web server answers back with a response con taining both the HTTP headers and the actual website content. The HTTP header and the HTML response ( the website content) are separated by a specific combination of special character, namely a carriage return and  a line feed. 
+
+
+6/ Responses
+
+7/ Method
+
+8/ Status Codes
+
+9/ Header Fields
+
+10/Caching
+
+11/URL Encoding
+
+12/Security
+
+13/ Message Examples
+

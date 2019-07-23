@@ -1,0 +1,16 @@
+URI Uniform Resource Identifier
+URI có thể được phân loại như là nhận dạng (URL), như tên gọi (URN), hoặc là cả hai. Một Định danh tài nguyên thống nhất (Uniform Resource Name - URN) có chức năng giống như tên của một người, trong khi một định vị tài nguyên thống nhất (Uniform Resource Locator - URL) tương tự như địa chỉ đường phố của người đó. Nói cách khác: URI xác định việc nhận dạng cho đối tượng qua tên bằng URN, hay là qua địa chỉ bằng URL.
+
+URI  = schema ":" hier-part ["?" query]  ["#" fragment]
+
+URL Uniform Resource Locator
+
+
+
+URN Uniform Resource Name 
+
+    &lt;URN&gt;::= "urn:" &lt;NID&gt; ":" &lt;NSS&gt;
+
+hay là:
+
+    urn:&lt;NID&gt;:&lt;NSS&gt;
