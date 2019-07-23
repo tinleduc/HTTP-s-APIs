@@ -1,0 +1,88 @@
+class HttpResponse
+
+Usage
+
+Passing strings
+
+Passing iterators
+
+Setting header fields
+
+Telling the browser to trear the response as a file attachment
+
+Attributes
+
+.content
+
+.charset
+
+.status_code
+
+.reason_phrase
+
+.streaming
+
+.closed
+
+Methods
+
+HttpResponse.__init__
+
+
+HttpResponse.__setitem__
+
+HttpResponse.__delitem__()
+
+HttpResponse.__getitem__()
+
+HttpResponse.has_header()
+
+HttpResponse.setdefault()
+
+HttpResponse.setcookie()
+
+HttpResponse.set_signed_cookie()
+
+HttpResponse.delete_cookie()
+
+HttpResponse.close()
+
+HttpResponse.write()
+
+HttpResponse.flush()
+
+HttpResponse.tell()
+
+HttpResponse.getvalue()
+
+HttpResponse.readable()
+
+HttpResponse.seekable()
+
+HttpResponse.writable()
+
+HttpResponse.writelines()
+
+SUBCLASSES
+
+ HttpResponseRedirect()
+ 
+ HttpResponsePermanentReditect()
+ 
+ HttpResponseNotModified()
+ 
+ HttpResponseBadRequest()
+ 
+ HttpResponseNotFound()
+ 
+ HttpResponseForbidden()
+ 
+ HttpResponseNotAllowed()
+ 
+ HttpResponseGone()
+ 
+ HttpResponseServerError()
+ 
+ 
+ 
+ 
