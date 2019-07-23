@@ -1,0 +1,49 @@
+HttpResquest objects
+
+class HttpRequest
+Attributes
+.scheme
+.body
+.path
+.path_info
+.method
+.encoding
+.content_type
+content_params
+.GET
+.POST
+.COOKIES
+.FILES
+.META
+.headers
+.resolver_match
+
+Attributes set by application code
+.current_app
+.urlconf
+
+Attributes set by middleware
+.session
+.site
+.user
+
+Method
+.get_host()
+.get_port()
+.get_full_path()
+.get_full_path_info()
+.build_absolute_uri()
+.get_signed_cookie()
+.is_sercure()
+.is_ajax()
+.read()
+.readline()
+.readlines()
+.__iter__()
+
+
+
+
+
+
+
